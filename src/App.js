@@ -4,6 +4,10 @@ import UseContexts from './useContexts'
 import UserReducer from './useReducer'
 import UseRefs from './useRefs'
 import UseHuanCun from './huanCun'
+import Tables from './views/tables/tabs'
+import TablesEdit from './views/tables/tablesEdit'
+import Forms from './views/forms/index'
+
 function App() {
   return (
     <div className="App">
@@ -12,7 +16,10 @@ function App() {
       {/* <UseContexts /> */}
       {/* <UserReducer /> */}
       {/* <UseRefs /> */}
-      <UseHuanCun/>
+      {/* <UseHuanCun/> */}
+      {/* <Tables /> */}
+      {/* <TablesEdit /> */}
+      <Forms />
     </div>
   );
 }
