@@ -1,0 +1,15 @@
+.home {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+}
+
+.left {
+    width: 20vh;
+    border: 1px solid;
+}
+
+.right {
+    flex: 1;
+}
+
